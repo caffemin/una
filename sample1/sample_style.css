@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+body {
+    margin:20px;
+    color:#666;
+    overflow-x: hidden;
+}
+.logo {
+    display:block;
+    margin:40px auto;
+    margin-bottom: 0;
+    width:400px;
+  padding-bottom:20px;
+}
+.wood {
+    display:block;
+    margin:0 auto;
+    width:100%;
+    border-radius: 10px;
+}
+nav {
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    transition-duration: 0.3s;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding:40px 0;
+}
+nav li a{
+    font-size:18px;
+    text-decoration: none;
+    padding:20px 30px;
+    text-align: center;
+}
+nav li a:hover{
+    color:#354c69;
+    border-bottom: 4px solid;
+    transition-duration: 0.3s;
+}
+h2 {
+    color:white;
+    background-color:#354c69;
+    font-size: 16px;
+    font-weight: normal;
+    padding:10px 18px;
+    border-radius: 10px;
+}
+table {
+    margin:20px;
+}
+th {
+    font-weight: normal;
+    padding-right: 20px;
+}
+h3 {
+    font-weight: normal;
+    font-size:16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding:10px 18px;
+}
+h4 {
+  color:#354c69;
+  border-bottom: 2px solid;
+}
+p {
+    margin:20px;
+    line-height: 32px;
+}
+span {
+    color:red;
+}
+a {
+    color:#666;
+}
+a:hover{
+    color:#354c69;
+    transition-duration: 0.3s;
+}
+footer {
+    margin:0 auto;
+    margin-top:60px;
+    text-align: center;
+    font-size:14px;
+}
+footer p {
+    line-height: 2px;
+}
+footer a{
+    text-decoration: none;
+}
+.soko{
+    font-size: 13px;
+}
+
+/*ここからabout*/
+
+.aboutTable  {
+    margin:0 auto;
+    width:100%;
+    border-collapse: collapse;
+}
+caption {
+    background:#eee;
+    text-align: left;
+    padding:12px;
+    border: 1px solid;
+    border-bottom: none;
+}
+.aboutTable th {
+    padding:12px 60px;
+    border:1px solid;
+}
+.aboutTable td {
+    padding:12px;
+    border:1px solid;
+    text-align: left;
+}
+.gray {
+    color:#666;
+    background:#ddd;
+    padding:6px 8px;
+    border-radius: 5px;
+}
+
+/*gallery*/
+
+section {
+    width:100%;
+    overflow:hidden;
+    border-bottom: 1px solid #ccc;
+}
+section img {
+    width:20%;
+    height:auto;
+    float:left;
+    margin:30px;
+    
+}
+.gText {
+    overflow: hidden;
+    margin-top:30px;
+}
+section p {
+    margin:0;
+}
+
+
+/*link*/
+
+.linkTable  {
+    margin:0 auto;
+    width:100%;
+    border-collapse: collapse;
+}
+.linkTable th {
+    margin:0;
+    padding:10px;
+    border:1px solid;
+    width:30%
+}
+.linkTable img {
+    max-width:100%;
+}
+.linkTable td {
+    padding:12px;
+    border:1px solid;
+}
+
+
+.return{
+  z-index:1000;
+  position: fixed;
+  top:20px;
+  left:20px;
+}
+
+
+
+@media screen and (max-width:600px){
+    
+    body,p,h1,h2,h3 {
+        font-size:12px;
+        line-height: 1.2;
+    }
+    nav li{
+        display: block;
+        padding:8px;
+    }
+    nav li a{
+        padding:5px 20px;
+    }
+  .logo {
+    width:70%;
+  }
+    
+}
